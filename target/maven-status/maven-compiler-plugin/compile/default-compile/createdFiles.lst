@@ -1,0 +1,5 @@
+Resources\Browser.class
+PageObjects\LoginPage.class
+PageObjects\LandingPage.class
+Resources\ExtentReporterNG.class
+E2EMaven\App.class

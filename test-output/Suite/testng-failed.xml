@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="E2EMaven.Liestener"/>
+    <listener class-name="Resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="ApplicationDemo(failed)">
+    <classes>
+      <class name="E2EMaven.FieldValidation">
+        <methods>
+          <include name="BClose"/>
+          <include name="Container2"/>
+        </methods>
+      </class> <!-- E2EMaven.FieldValidation -->
+    </classes>
+  </test> <!-- ApplicationDemo(failed) -->
+</suite> <!-- Failed suite [Suite] -->
